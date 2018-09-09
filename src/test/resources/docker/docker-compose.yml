@@ -14,7 +14,7 @@ endevor:
       - "9180:5000"
 
 xlr:
-  image: xebialabs/xlr_dev_run:v8.0.0.2
+  image: xebialabsunsupported/xlr_dev_run:v8.0.0.2
   volumes:
     - ~/xl-licenses:/license
     - ./../../../../:/data
